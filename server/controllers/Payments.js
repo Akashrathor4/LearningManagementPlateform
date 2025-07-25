@@ -4,7 +4,6 @@ const crypto = require("crypto")
 const User = require("../models/user");
 const mailSender = require("../utils/mailSender");
 const mongoose = require("mongoose");
-const { FaMonument } = require("react-icons/fa");
 const { paymentSuccessEmail } = require("../mail/templates/paymentSuccessEmail");
 const {courseEnrollmentEmail} = require("../mail/templates/courseEnrollmentEmail")
 const CourseProgress = require('../models/CourseProgress');
